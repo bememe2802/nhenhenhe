@@ -1,0 +1,59 @@
+.footerContainer{
+  //   display: flex;
+  //   gap: 5px;
+  //   border: 1px solid red;
+  //   width: 100%;
+  //   height: 200px;
+  //   justify-content: space-around;
+  //   // align-items: center;
+  // .textLeft{
+  //   border: 1px solid rgb(0, 255, 110);
+  //   height: 100%;
+  //   flex: 0 0 40%;
+  //   text-align: left;
+  //   .bottomText{
+  //     width: 400px;
+  //   }
+  // }
+  // .textRight{
+  //   flex: 1;
+  //   border: 1px solid rgb(0, 255, 110);
+  //   height: 100%;
+  //   text-align: center;
+  // }
+  display: flex;
+  justify-content: space-between; /* Chia đều khoảng cách giữa các cột */
+  padding: 20px 40px;
+  
+  .footerColumn {
+    margin-right: 0;
+
+    ul {
+      list-style: none;
+      padding: 0;
+
+      li {
+        font-size: 14px;
+        line-height: 1.8;
+        margin-bottom: 5px;
+
+        a {
+          color: orange; // Text màu cam
+          text-decoration: none;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
