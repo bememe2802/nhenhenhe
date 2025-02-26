@@ -1,0 +1,57 @@
+.AlbumTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 97.8%;
+    height: 50px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.Title {
+    font-size: 40px;
+}
+
+.AlbumGrid {
+    display: grid;
+    width: 96.5%;
+    height: 573px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 10px;
+}
+
+.PictureDiv {
+    height: 67%;
+}
+
+.Picture {
+    height: 100%;
+    width: 99%;
+    margin-bottom: 10px;
+}
+
+.Picture:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.PictureInfo {
+    height: 23%;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.PictureStatus {
+    margin: 0px;
+}
+
+.DateAndTime {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 9px;
+    margin-bottom: 10px;
+}

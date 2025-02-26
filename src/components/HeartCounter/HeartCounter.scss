@@ -1,0 +1,72 @@
+.heart-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 50vh;
+    /* Căn giữa màn hình */
+}
+
+.heart {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    transform: rotate(-45deg);
+    animation: pulse 1.5s infinite;
+}
+
+.heart:before,
+.heart:after {
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.heart:before {
+    top: -100px;
+    left: 0;
+}
+
+.heart:after {
+    left: 100px;
+    top: 0;
+}
+
+.day-count {
+    position: absolute;
+    top: 35%;
+    left: 65%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    font-size: 30px;
+    /* Giảm font-size để vừa hơn */
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    width: 120%;
+    /* Tăng độ rộng để chữ có đủ chỗ */
+    white-space: nowrap;
+    /* Không cho chữ xuống dòng */
+    word-wrap: break-word;
+    /* Đảm bảo chữ không bị mất */
+    z-index: 10;
+    /* Đẩy chữ lên trên */
+}
+
+
+@keyframes pulse {
+    0% {
+        transform: scale(1) rotate(-45deg);
+    }
+
+    50% {
+        transform: scale(1.1) rotate(-45deg);
+    }
+
+    100% {
+        transform: scale(1) rotate(-45deg);
+    }
+}
