@@ -1,33 +1,13 @@
 {
   "files": {
     "main.css": "./static/css/main.52ee64b3.css",
-    "main.js": "./static/js/main.b9226f1e.js",
-    "static/media/SearchIcon.png": "./static/media/SearchIcon.46edd9c12dc70faf87f8.png",
-    "static/media/NotificationIcon.png": "./static/media/NotificationIcon.d6fbe785cbc1e25abff6.png",
-    "static/media/HeartIcon.png": "./static/media/HeartIcon.543e33d08d5dda4e6eae.png",
-    "static/media/NheNheNhe.jpg": "./static/media/NheNheNhe.dbfa1f24db31b0cdf1fc.jpg",
-    "static/media/NhiuNhiuNhe.jpg": "./static/media/NhiuNhiuNhe.c6ba925c18629c653d52.jpg",
-    "static/media/AlbumPicture5.jpg": "./static/media/AlbumPicture5.a337e138b9f4b9355d00.jpg",
-    "static/media/DayLoveIcon.png": "./static/media/DayLoveIcon.4222456611b19e2257a4.png",
-    "static/media/AlbumPicture8.jpg": "./static/media/AlbumPicture8.d2da1a736ce98abf2782.jpg",
-    "static/media/AlbumPicture4.jpg": "./static/media/AlbumPicture4.e97a8113401657bbfbd5.jpg",
-    "static/media/AlbumPicture1.jpg": "./static/media/AlbumPicture1.afbb3973badb9c46f07d.jpg",
-    "static/media/AlbumPicture7.jpg": "./static/media/AlbumPicture7.5f5abfe7af2920fc009c.jpg",
-    "static/media/AlbumPicture2.jpg": "./static/media/AlbumPicture2.0710c9f93da87492d546.jpg",
-    "static/media/AlbumPicture3.jpg": "./static/media/AlbumPicture3.58ff1d9e9eaebf726d73.jpg",
-    "static/media/AlbumPicture6.jpg": "./static/media/AlbumPicture6.785c093af77db6aa49bf.jpg",
-    "static/media/TravelIcon.png": "./static/media/TravelIcon.1355abc8cbf25717119b.png",
-    "static/media/MenuIcon.png": "./static/media/MenuIcon.653de4b88cc12bb20758.png",
-    "static/media/HomeIcon.png": "./static/media/HomeIcon.153ef153b4dd61d425c6.png",
-    "static/media/MemoriesIcon.png": "./static/media/MemoriesIcon.fc71195fd1aa1290e82b.png",
-    "static/media/ConNay.png": "./static/media/ConNay.cd1b8eb946b4c39be1a0.png",
+    "main.js": "./static/js/main.a038e2ca.js",
     "index.html": "./index.html",
-    "static/media/AddIcon.svg": "./static/media/AddIcon.4d5cd990499c5e87216be868a5c988db.svg",
     "main.52ee64b3.css.map": "./static/css/main.52ee64b3.css.map",
-    "main.b9226f1e.js.map": "./static/js/main.b9226f1e.js.map"
+    "main.a038e2ca.js.map": "./static/js/main.a038e2ca.js.map"
   },
   "entrypoints": [
     "static/css/main.52ee64b3.css",
-    "static/js/main.b9226f1e.js"
+    "static/js/main.a038e2ca.js"
   ]
 }
