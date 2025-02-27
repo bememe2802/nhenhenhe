@@ -1,9 +1,9 @@
 import { useNavigate } from "react-router-dom";
 import "./Sidebar.scss";
-import HomeIcon from "./Images/HomeIcon.png";
-import MemoriesIcon from "./Images/MemoriesIcon.png";
-import DayLoveIcon from "./Images/DayLoveIcon.png";
-import TravelIcon from "./Images/TravelIcon.png";
+import HomeIcon from "../../assets/icons/sidebar-icons/HomeIcon.png";
+import MemoriesIcon from "../../assets/icons/sidebar-icons/MemoriesIcon.png";
+import DayLoveIcon from "../../assets/icons/sidebar-icons/DayLoveIcon.png";
+import TravelIcon from "../../assets/icons/sidebar-icons/TravelIcon.png";
 
 const Sidebar = () => {
     const navigate = useNavigate();

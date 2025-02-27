@@ -1,12 +1,12 @@
 import "./Home.scss";
-import AlbumPicture1 from "./Images/AlbumPicture1.jpg";
-import AlbumPicture2 from "./Images/AlbumPicture2.jpg";
-import AlbumPicture3 from "./Images/AlbumPicture3.jpg";
-import AlbumPicture4 from "./Images/AlbumPicture4.jpg";
-import AlbumPicture5 from "./Images/AlbumPicture5.jpg";
-import AlbumPicture6 from "./Images/AlbumPicture6.jpg";
-import AlbumPicture7 from "./Images/AlbumPicture7.jpg";
-import AlbumPicture8 from "./Images/AlbumPicture8.jpg";
+import AlbumPicture1 from "../../assets/images/home-images/AlbumPicture1.jpg";
+import AlbumPicture2 from "../../assets/images/home-images/AlbumPicture2.jpg";
+import AlbumPicture3 from "../../assets/images/home-images/AlbumPicture3.jpg";
+import AlbumPicture4 from "../../assets/images/home-images/AlbumPicture4.jpg";
+import AlbumPicture5 from "../../assets/images/home-images/AlbumPicture5.jpg";
+import AlbumPicture6 from "../../assets/images/home-images/AlbumPicture6.jpg";
+import AlbumPicture7 from "../../assets/images/home-images/AlbumPicture7.jpg";
+import AlbumPicture8 from "../../assets/images/home-images/AlbumPicture8.jpg";
 
 const Home = () => {
     return (

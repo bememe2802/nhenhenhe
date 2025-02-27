@@ -1,11 +1,11 @@
 import React from 'react';
 import './Navbar.scss';
-import MenuIcon from "./Images/MenuIcon.png";
-import HeartIcon from "./Images/HeartIcon.png";
-import SearchIcon from "./Images/SearchIcon.png";
-import AddIcon from "./Images/AddIcon.svg";
-import ConNay from "./Images/ConNay.png";
-import NotificationIcon from "./Images/NotificationIcon.png";
+import MenuIcon from "../../assets/icons/navbar-icons/MenuIcon.png";
+import HeartIcon from "../../assets/icons/navbar-icons/HeartIcon.png";
+import SearchIcon from "../../assets/icons/navbar-icons/SearchIcon.png";
+import AddIcon from "../../assets/icons/navbar-icons/AddIcon.svg";
+import ConNay from "../../assets/icons/navbar-icons/ConNay.png";
+import NotificationIcon from "../../assets/icons/navbar-icons/NotificationIcon.png";
 
 const Navbar = () => {
     return (

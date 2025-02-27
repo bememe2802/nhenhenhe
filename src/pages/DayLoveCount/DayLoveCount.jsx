@@ -1,8 +1,8 @@
 import React from "react";
 import HeartCounter from "../../components/HeartCounter/HeartCounter";
 import "./DayLoveCount.scss";
-import NhiuNhiuNhe from "./Images/NhiuNhiuNhe.jpg";
-import NheNheNhe from "./Images/NheNheNhe.jpg";
+import NhiuNhiuNhe from "../../assets/images/daylovecount-images/NhiuNhiuNhe.jpg";
+import NheNheNhe from "../../assets/images/daylovecount-images/NheNheNhe.jpg";
 
 const DayLoveCount = () => {
     return (
