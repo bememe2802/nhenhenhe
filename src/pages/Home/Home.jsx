@@ -1,92 +1,51 @@
 import "./Home.scss";
-import AlbumPicture1 from "../../assets/images/home-images/AlbumPicture1.jpg";
-import AlbumPicture2 from "../../assets/images/home-images/AlbumPicture2.jpg";
-import AlbumPicture3 from "../../assets/images/home-images/AlbumPicture3.jpg";
-import AlbumPicture4 from "../../assets/images/home-images/AlbumPicture4.jpg";
-import AlbumPicture5 from "../../assets/images/home-images/AlbumPicture5.jpg";
-import AlbumPicture6 from "../../assets/images/home-images/AlbumPicture6.jpg";
-import AlbumPicture7 from "../../assets/images/home-images/AlbumPicture7.jpg";
-import AlbumPicture8 from "../../assets/images/home-images/AlbumPicture8.jpg";
 
 const Home = () => {
     return (
-        <>
-            <div className="Home">
-                <div className="AlbumTitle">
-                    <p className="Title">Ảnh các thứ</p>
-                </div>
-
-                <div className="AlbumGrid">
-
-                    <div className="PictureDiv">
-                        <img className="Picture" src={AlbumPicture1} />
-                        <div className="PictureInfo">
-                            <p className="PictureStatus">ĐI CHƠI CÔNG VIÊN CÙNG NHAU</p>
-                            <p className="DateAndTime">24/02/2025   &#8226;   07:10 AM</p>
-                        </div>
-                    </div>
-
-                    <div className="PictureDiv">
-                        <img className="Picture" src={AlbumPicture2} />
-                        <div className="PictureInfo">
-                            <p className="PictureStatus">CŨNG LÀ ĐI CHƠI CÔNG VIÊN CÙNG NHAU</p>
-                            <p className="DateAndTime">24/02/2025   &#8226;   07:04 AM</p>
-                        </div>
-                    </div>
-
-                    <div className="PictureDiv">
-                        <img className="Picture" src={AlbumPicture3} />
-                        <div className="PictureInfo">
-                            <p className="PictureStatus">CÔ GÁI XÌ TIN</p>
-                            <p className="DateAndTime">20/10/2024   &#8226;   12:11 PM</p>
-                        </div>
-                    </div>
-
-                    <div className="PictureDiv">
-                        <img className="Picture" src={AlbumPicture4} />
-                        <div className="PictureInfo">
-                            <p className="PictureStatus">HỪ CÓ NGƯỜI LƯỜI ĐI BỘ</p>
-                            <p className="DateAndTime">14/11/2024   &#8226;   03:36 PM</p>
-                        </div>
-                    </div>
-
-                    <div className="PictureDiv">
-                        <img className="Picture" src={AlbumPicture5} />
-                        <div className="PictureInfo">
-                            <p className="PictureStatus">GAME THỦ 200 NĂM</p>
-                            <p className="DateAndTime">12/05/2024   &#8226;   03:48 PM</p>
-                        </div>
-                    </div>
-
-                    <div className="PictureDiv">
-                        <img className="Picture" src={AlbumPicture6} />
-                        <div className="PictureInfo">
-                            <p className="PictureStatus">KHÁ LÀ ẾCH CẶP ỘP ỘP ỘP</p>
-                            <p className="DateAndTime">11/08/2024   &#8226;   12:11 PM</p>
-                        </div>
-                    </div>
-
-                    <div className="PictureDiv">
-                        <img className="Picture" src={AlbumPicture7} />
-                        <div className="PictureInfo">
-                            <p className="PictureStatus">THẤY NÀNG ĐỢI NGƯỜI YÊU</p>
-                            <p className="DateAndTime">14/11/2024   &#8226;   04:43 PM</p>
-                        </div>
-                    </div>
-
-                    <div className="PictureDiv">
-                        <img className="Picture" src={AlbumPicture8} />
-                        <div className="PictureInfo">
-                            <p className="PictureStatus">BẬT CHẾ ĐỘ LẨU = LẨU</p>
-                            <p className="DateAndTime">02/09/2024   &#8226;   08:43 PM</p>
-                        </div>
-                    </div>
-
-
-                </div>
+        <div className="Home">
+            <div className="AlbumTitle">
+                <p className="Title">Ảnh các thứ</p>
             </div>
-        </>
+
+            <div className="AlbumGrid">
+                {Array.from({ length: 8 }, (_, i) => (
+                    <div className="PictureDiv" key={i}>
+                        <img
+                            className="Picture"
+                            src={`/assets/images/home-images/AlbumPicture${i + 1}.jpg`}
+                            alt={`Ảnh ${i + 1}`}
+                        />
+                        <div className="PictureInfo">
+                            <p className="PictureStatus">
+                                {[
+                                    "ĐI CHƠI CÔNG VIÊN CÙNG NHAU",
+                                    "CŨNG LÀ ĐI CHƠI CÔNG VIÊN CÙNG NHAU",
+                                    "CÔ GÁI XÌ TIN",
+                                    "HỪ CÓ NGƯỜI LƯỜI ĐI BỘ",
+                                    "GAME THỦ 200 NĂM",
+                                    "KHÁ LÀ ẾCH CẶP ỘP ỘP ỘP",
+                                    "THẤY NÀNG ĐỢI NGƯỜI YÊU",
+                                    "BẬT CHẾ ĐỘ LẨU = LẨU"
+                                ][i]}
+                            </p>
+                            <p className="DateAndTime">
+                                {[
+                                    "24/02/2025 • 07:10 AM",
+                                    "24/02/2025 • 07:04 AM",
+                                    "20/10/2024 • 12:11 PM",
+                                    "14/11/2024 • 03:36 PM",
+                                    "12/05/2024 • 03:48 PM",
+                                    "11/08/2024 • 12:11 PM",
+                                    "14/11/2024 • 04:43 PM",
+                                    "02/09/2024 • 08:43 PM"
+                                ][i]}
+                            </p>
+                        </div>
+                    </div>
+                ))}
+            </div>
+        </div>
     );
-}
+};
 
 export default Home;
